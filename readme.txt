@@ -1,16 +1,20 @@
 构建项目
-环境nodejs
 
-构建命令
-npm install -g express-generator
+环境
+nodejs v0.10.32
+npm 1.4.28
+express 4.12.1
 
-进入项目目录
-express -e music //创建项目
-npm install //安装项目
-npm install -g supervisor 
+构建项目
+1、npm install -g express-generator
+2、进入项目目录
+3、express -e music //创建项目
+4、npm install //安装项目
+5、npm install -g supervisor 
 
 运行项目
-supervisor bin/www
+1、进入项目目录
+2、键入命令supervisor bin/www
 
 //涉及到的一些Audio的一些笔记
 AudioContext
